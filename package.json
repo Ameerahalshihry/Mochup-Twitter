@@ -1,0 +1,22 @@
+{
+  "name": "mocktweet",
+  "version": "1.0.0",
+  "description": "mock up Tweet",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "mockup-twitter": "cd mockup-twitter && npm start",
+    "dev": "concurrently \"npm test\" \"npm run mockup-twitter\""
+  },
+  "author": "Amani Ameerah Norah Moneerah",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "mongoose": "^5.5.5",
+    "passport": "^0.4.0"
+  }
+}
